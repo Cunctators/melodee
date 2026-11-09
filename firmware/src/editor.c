@@ -483,7 +483,7 @@ static void ed_handle(const uint8_t *f, uint32_t n)   /* f: the bytes between F0
     }
 #if MELODEE_AUDIO_BENCH
     case 99: {
-        if(na==3u && a[0]==2u && a[1]<NTRK && a[2]<=FM6_OPL){
+        if(na==3u && a[0]==2u && a[1]<NTRK && a[2]<=FM6_MARK1){
             fm1_irq_off();fm6_fn_set(a[1],FN_ENGINE,a[2]);fm1_irq_on();ed_b(0);break;
         }
         if(na!=1u || a[0]>1u){ed_b(1);break;}

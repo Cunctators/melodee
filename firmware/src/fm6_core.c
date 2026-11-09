@@ -38,7 +38,7 @@ enum {
 enum { FN_PBUP, FN_PBDN, FN_PBSTEP, FN_PMODE, FN_PTIME, FN_GLISS, FN_MWR, FN_MWA, FN_FCR, FN_FCA, FN_BCR, FN_BCA,
        FN_ATR, FN_ATA, FN_VNORM, FN_ENGINE, FM6_NFN };
 enum { FM6_MODERN, FM6_MARK1, FM6_OPL };
-static const uint8_t FM6_FNMAX[FM6_NFN] = {12, 12, 12, 1, 127, 1, 99, 7, 99, 7, 99, 7, 99, 7, 1, 2};
+static const uint8_t FM6_FNMAX[FM6_NFN] = {12, 12, 12, 1, 127, 1, 99, 7, 99, 7, 99, 7, 99, 7, 1, 1};
 static const uint8_t FM6_FNDEF[FM6_NFN] = {3, 3, 0, 0, 0, 0, 99, 1, 0, 0, 0, 0, 0, 0, 0, FM6_MARK1};   /* Dexed's */
 static uint8_t fm6_fn[NTRK][FM6_NFN];                    /* per track (fm6_fn_reset at power-on, a new project) */
 static void fm6_fn_reset(void)

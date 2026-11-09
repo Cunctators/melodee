@@ -119,7 +119,7 @@ static const char *const N_FMMODE[] = {"RATIO", "FIXED"};
 static const char *const N_FMLFW[] = {"TRI", "SAWDN", "SAWUP", "SQR", "SIN", "S&H"};
 static const char *const N_FMPM[] = {"PEDAL", "ON"};   /* portamento: while CC 65 is down (Dexed), always */
 static const char *const N_FMDEST[] = {"-", "P", "A", "PA", "E", "PE", "AE", "PAE"};   /* pitch, amp, EG bias */
-static const char *const N_FMENG[] = {"MODRN", "MARK I", "OPL"};                  /* Dexed's engine resolutions */
+static const char *const N_FMENG[] = {"MODRN", "MARK I"};                  /* Dexed's engine resolutions */
 static const char *const N_FMONOFF[] = {"OFF", "ON"};
 static uint8_t fm6_opsel;
 static uint16_t fm6_bslot;                    /* OP1..OP6 = 0..5; user preset slot 0..63 (U01..U64) */
